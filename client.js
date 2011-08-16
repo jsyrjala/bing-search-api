@@ -1,6 +1,6 @@
 require.paths.unshift('.')
 var bingApi = require('bing-search-api')
-var bing = new (bingApi.Bing)('E592371E37205F15516092874A03D7F4C3C188CD')
+var bing = new (bingApi.Bing)('<PUT YOUR BING APP KEY HERE>')
 
 
 function logCallback(error, result) { 
